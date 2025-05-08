@@ -1,6 +1,6 @@
-# 📚 Notes Sage - Gemini-Powered CTSE Lecture Notes Chatbot
+# 📚 Notes Sage - Gemini-Powered Lecture Notes Chatbot
 
-This project is an intelligent chatbot built with **LangChain**, **Google Gemini API**, and **Chroma vector database**, designed to help you query your **CTSE lecture notes** in natural language. The app uses **PDF parsing**, **chunking**, **vector embeddings**, and **retrieval-based QA**, all within a user-friendly **Google Colab notebook interface**.
+This project is an intelligent chatbot built with **LangChain**, **Google Gemini API**, and **Chroma vector database**, designed to help you query your **lecture notes** in natural language. The app uses **PDF parsing**, **chunking**, **vector embeddings**, and **retrieval-based QA**, all within a user-friendly **Google Colab notebook interface**.
 
 ---
 
@@ -20,7 +20,7 @@ This project is an intelligent chatbot built with **LangChain**, **Google Gemini
 ## 📁 Project Structure
 
 ```plaintext
-📁 /content/drive/MyDrive/CTSE/CTSE_Lecture_Notes.pdf   # Your input lecture notes PDF
+📁 /content/drive/MyDrive/CTSE/CTSE_Lecture_Notes.pdf   # input lecture notes PDF
 📄 main_colab_notebook.ipynb                            # Core notebook with chatbot implementation
 📦 ./chroma_db                                          # Persistent vector DB with embedded chunks
 ```
